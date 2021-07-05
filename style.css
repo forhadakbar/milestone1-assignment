@@ -1,0 +1,96 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+
+}
+
+h1{
+    font-size: 60px;
+    color: #575757;
+}
+
+h2{
+    font-size: 40px;
+    color: #575757;
+}
+
+p{
+    color: #828282;
+}
+
+.flexible-container{
+    display: flex;
+    margin: 100px 0;
+}
+
+.half-width{
+    width: 50%;
+    padding-left: 5%;
+}
+
+.half-width img{
+    width:80%;
+}
+
+.orange-color{
+
+    color: #FBA24F;
+}
+
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(90deg,#FBA24F, #FF1E1E);
+    color: white;
+    padding: 10px 40px;
+    border-radius: 40px ;
+}
+
+.second-section{
+    background-image: url(images/shapes/7.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+}
+
+#recepie-title{
+    text-align: center;
+    padding: 0 20%;
+    margin-bottom: 40px;
+
+}
+
+.recepie-container{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.recepie-box{
+    width: 20%;
+    margin: 0 3%;
+    box-shadow: 10px 10px 40px gray;
+    padding: 2%;
+    border-radius: 20px;
+}
+
+.recepie-box img{
+    width: 100%;
+}
+
+.follower-container{
+    display: flex;
+    justify-content:space-around;
+    margin: 0 7% 100px;
+    padding: 50px 0;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 20px;
+
+
+}
+
+.header-footer{
+    text-align: center;
+    background-color: black;
+    padding:1% 0 5% 0;
+}
+
