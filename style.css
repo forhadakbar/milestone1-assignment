@@ -1,7 +1,37 @@
+*{
+    margin: 0;
+}
+
 body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
 
+}
+
+
+.nav-list{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: black;
+}
+
+.nav-item{
+    list-style: none;
+    margin-right: 2rem;
+}
+
+.nav-item a:hover{
+    color:#4f6ffb;
+}
+
+.nav-item a{
+    text-decoration: none;
+    color: #575757;
+}
+
+.nav-item:first-child{
+    margin-right: auto;
 }
 
 h1{
@@ -20,7 +50,7 @@ p{
 
 .flexible-container{
     display: flex;
-    margin: 100px 0;
+    margin: 80px 0;
 }
 
 .half-width{
@@ -30,6 +60,10 @@ p{
 
 .half-width img{
     width:80%;
+}
+
+.half-width p{
+    margin: 40px 0 80px 0;
 }
 
 .orange-color{
@@ -45,11 +79,25 @@ p{
     border-radius: 40px ;
 }
 
-.second-section{
+.link-button:hover{
+    background-image: linear-gradient(90deg,#4f6ffb, #1efff4);
+
+}
+
+#about-section{
     background-image: url(images/shapes/7.png);
     background-repeat: no-repeat;
     background-size: 100%;
 
+}
+
+#about-section img{
+    width: 100%;
+
+}
+
+.about-me{
+    margin: 5% 0;
 }
 
 #recepie-title{
@@ -88,7 +136,7 @@ p{
 
 }
 
-.header-footer{
+footer{
     text-align: center;
     background-color: black;
     padding:1% 0 5% 0;
