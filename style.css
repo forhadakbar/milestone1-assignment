@@ -9,6 +9,7 @@ body{
 }
 
 
+
 .nav-list{
     display: flex;
     justify-content: flex-end;
@@ -27,11 +28,13 @@ body{
 
 .nav-item a{
     text-decoration: none;
+    font-size: 25px;
     color: #616060;
 }
 
 .nav-item:first-child{
     margin-right: auto;
+    margin-bottom: 10px;
 }
 
 h1{
@@ -42,6 +45,7 @@ h1{
 h2{
     font-size: 40px;
     color: #575757;
+    
 }
 
 p{
@@ -56,6 +60,8 @@ p{
 .half-width{
     width: 50%;
     padding-left: 5%;
+    padding-right: 10%;
+
 }
 
 .half-width img{
@@ -64,6 +70,7 @@ p{
 
 .half-width p{
     margin: 5% 0 10% 0;
+    padding-right: 15%;
 }
 
 .orange-color{
@@ -93,6 +100,8 @@ p{
 
 #about-section img{
     width: 100%;
+    height: 100%;
+    padding-left: 25%;
 
 }
 
@@ -121,6 +130,10 @@ p{
     border-radius: 20px;
 }
 
+.recepie-box h3{
+    margin: 5% 0;
+}
+
 .recepie-box img{
     width: 100%;
 }
@@ -128,12 +141,39 @@ p{
 .follower-container{
     display: flex;
     justify-content:space-around;
-    margin: 0 7% 100px;
+    margin: 0 8% 100px;
     padding: 50px 0;
     box-shadow: 10px 10px 40px gray;
     border-radius: 20px;
+}
 
 
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    }
+
+.fa:hover {
+    opacity: 0.7;
+  }
+
+.fa-youtube{
+        background: #bb0000;
+        color: white;
+  }
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+
+.fa-dribbble {
+    background: #ea4c89;
+    color: white;
 }
 
 footer{
@@ -142,3 +182,6 @@ footer{
     padding:1% 0 5% 0;
 }
 
+footer p{
+    margin-bottom: 50px;
+}

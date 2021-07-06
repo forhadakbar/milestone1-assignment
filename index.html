@@ -6,27 +6,43 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Food Network</title>
+
+    <!-- Browser Tab icon(favicon) -->
+    <link rel="icon" href="images/favicon.ico">
+
+    <!-- Google Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+    <!-- Link to font-awsome icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Link to .css file -->
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
+    <!-- Start of Navigation bar -->
+
     <nav>
         <ul class="nav-list">
             <li class="nav-item">
                 <h2><span class="orange-color">FOOD</span> NETWORK</h2>
+                <p>Eat healthy to live healthy. Live healthy to live happy.</p>
             </li>
             <li class="nav-item"><a href="#">Home</a></li>
-            <li class="nav-item"><a href="#about-section">About</a></li>
-            <li class="nav-item"><a href="#recepie-title">Recepies</a></li>
-            <li class="nav-item link-button"><a href="#">Order Food</a></li>
+            <li class="nav-item"><a href="#about-section">About</a></li> <!-- Take to about section on click -->
+            <li class="nav-item"><a href="#recepie-title">Recepies</a></li> <!-- Take Recepies section on click -->
+            <li class="nav-item"><a class="nav-item link-button" target="_blank"
+                    href="https://www.foodnetwork.com/">Order Food</a></li>
         </ul>
     </nav>
 
+    <!-- End of Navigation bar -->
 
+    <!-- Start of First Section -->
 
     <section class="flexible-container">
         <div class="half-width">
@@ -34,28 +50,34 @@
             <h1>Just Eat Healthy</h1>
             <h1>With Food Network</h1>
             <p>Imagine you don't need a diet because we provide healthy and delicious food for you!</p>
-            <a class="link-button" target="_blank" href="">Order Food</a>
+            <a class="link-button" target="_blank" href="https://www.foodnetwork.com/">Order Food</a>
         </div>
         <div class="half-width">
             <img src="images/female/Group 8425.png" alt="image of a female with salad">
         </div>
     </section>
 
+    <!-- End of First Section -->
+
+    <!-- Start of Second Section -->
+
     <section id="about-section" class="flexible-container">
         <div class="half-width">
-            <img src="images/female/png-clipart-eating-healthy-diet-food-health-natural-foods-food-removebg-preview.png"
-                alt="image of a female">
+            <img src="images/about-me.png" alt="image of a female">
         </div>
         <div class="half-width about-me">
             <h2>About Me</h2>
             <p>Curious, creative, and dynamic data scientist with a strong enthusiasm for deconstructing problems in
                 order to solve them in most effective way. I like to working out in order to stay fit. I always try to
                 eat healthy. I like traveling, eating, gardening, playing cricket and watching movie.</p>
-            <a class="link-button" target="_blank" href="">Contact Me</a>
+            <a class="link-button" target="_blank" href="https://github.com/forhadakbar">Contact Me</a>
 
         </div>
     </section>
 
+    <!-- End of Second Section -->
+
+    <!-- Start of Third Section -->
     <section>
         <div id="recepie-title">
             <h2>My Recepies</h2>
@@ -67,14 +89,12 @@
         <div class="recepie-container">
             <div class="recepie-box">
                 <div>
-                    <img src="images/food/Project Cover.jpg" alt="">
+                    <img src="images/lamb-kabab.jpg" alt="image of lamb kabab">
                 </div>
                 <div>
-                    <h3>Recipie Title</h3>
-                    <p>Lorem ipsum dolor sit amet,
-                        consectetur adipiscing elit. Lacus,
-                        fermentum amet faucibus sed id nisi
-                        lectus at.</p>
+                    <h3>Lamb Kabab</h3>
+                    <p>Marinate cubed lamb leg in 1/2 cup olive oil, the juice of 1 lemon, some fresh rosemary and 3
+                        smashed garlic cloves; add salt and pepper. Skewer with zucchini and grill.</p>
                 </div>
 
             </div>
@@ -82,56 +102,69 @@
 
             <div class="recepie-box">
                 <div>
-                    <img src="images/food/Project Cover1.jpg" alt="">
+                    <img src="images/skirt-steak.jpg" alt="image of skirt steak">
                 </div>
                 <div>
-                    <h3>Recipie Title</h3>
-                    <p>Lorem ipsum dolor sit amet,
-                        consectetur adipiscing elit. Lacus,
-                        fermentum amet faucibus sed id nisi
-                        lectus at.</p>
+                    <h3>Skirt Steak</h3>
+                    <p>Let 1 skirt steak (about 1 1/4 pounds) come to room temperature. Pat dry and season with salt and
+                        pepper. Grill on oiled grates over medium-high heat, 2 to 5 minutes per side, depending on the
+                        thickness, for medium rare.</p>
                 </div>
 
             </div>
 
             <div class="recepie-box">
                 <div>
-                    <img src="images/food/Project Cover.png" alt="">
+                    <img src="images/rice-kheer.png" alt="image of rice kheer">
                 </div>
                 <div>
-                    <h3>Recipie Title</h3>
-                    <p>Lorem ipsum dolor sit amet,
-                        consectetur adipiscing elit. Lacus,
-                        fermentum amet faucibus sed id nisi
-                        lectus at.</p>
+                    <h3>Rice Kheer</h3>
+                    <p>Rice kheer is basically Indian version of rice pudding made with basmati rice, whole milk, sugar,
+                        nuts and spices. It is also one of the most popular kheer variant made in North Indian cuisine.
+                    </p>
                 </div>
 
             </div>
         </div>
     </section>
 
+    <!-- End of Third Section -->
+
+    <!-- Start of Fourth Section -->
+
     <section class="follower-container">
         <div>
+            <a target="_blank" href="https://www.youtube.com/" class="fa fa-youtube"></a>
             <h2>800K</h2>
             <p>Youtube Subscribers</p>
 
         </div>
         <div>
+            <a target="_blank" href="https://www.instagram.com/" class="fa fa-instagram"></a>
             <h2>5.6m</h2>
             <p>Instagram Followers</p>
         </div>
         <div>
+            <a target="_blank" href="https://dribbble.com/" class="fa fa-dribbble"></a>
             <h2>300K</h2>
             <p>Dribbble Shot Likes</p>
         </div>
 
     </section>
 
+    <!-- End of Fourth Section -->
+
+    <!-- Start of Footer Section -->
+
     <footer>
         <h2><span class="orange-color">FOOD</span> NETWORK</h2>
         <p>Eat healthy to live healthy. Live healthy to live happy.</p>
+        <a class="link-button" target="_blank"
+            href="https://help.foodnetwork.com/hc/en-us/sections/360008162593-CORPORATE">Contact Us</a>
+
     </footer>
 
+    <!-- End of Footer Section -->
 
 </body>
 
